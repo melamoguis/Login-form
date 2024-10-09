@@ -1,8 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-    /* Font import and global reset */
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-    /* Global reset */
     * {
       margin: 0;
       padding: 0;
@@ -10,7 +7,6 @@
       font-family: 'Quicksand', sans-serif;
     }
 
-    /* Body styling */
     body {
       display: flex;
       justify-content: center;
@@ -19,7 +15,6 @@
       background: #000;
     }
 
-    /* Section styles */
     section {
       position: absolute;
       width: 100vw;
@@ -32,7 +27,6 @@
       overflow: hidden;
     }
 
-    /* Animated gradient effect */
     section::before {
       content: '';
       position: absolute;
@@ -42,7 +36,6 @@
       animation: animate 5s linear infinite;
     }
 
-    /* Animation keyframes */
     @keyframes animate {
       0% {
         transform: translateY(-100%);
@@ -52,7 +45,6 @@
       }
     }
 
-    /* Styling for individual spans */
     section span {
       position: relative;
       display: block;
@@ -68,7 +60,6 @@
       transition: 0s;
     }
 
-    /* Sign-in form styles */
     .signin {
       position: absolute;
       width: 400px;
@@ -171,7 +162,6 @@
       opacity: 0.6;
     }
 
-    /* Media queries for responsive design */
     @media (max-width: 900px) {
       section span {
         width: calc(10vw - 2px);
